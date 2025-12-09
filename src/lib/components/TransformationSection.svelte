@@ -5,8 +5,8 @@
 <section class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-20">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-                Just as Bloomberg digitized financial data in the 1980s, <span class="font-semibold">Rogo is now transforming financial workflows.</span>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight max-w-4xl">
+                Traditional consulting takes weeks and costs $50K+. <span class="text-primary-600">We deliver investor-grade insights in days.</span>
             </h2>
         </div>
 
@@ -15,28 +15,28 @@
             <div class="relative">
                 <div class="relative rounded-lg overflow-hidden shadow-2xl bg-gray-900 aspect-[4/3]">
                     <img 
-                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop" 
-                        alt="City buildings" 
-                        class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
+                        src="/generated/image-business-analyst-working-on-laptop-with--1765282025647-2.webp" 
+                        alt="Modern due diligence workflow" 
+                        class="absolute inset-0 w-full h-full object-cover"
                     />
                     
-                    <!-- Floating Interface Element -->
+                    <!-- Floating Comparison Card -->
                     <div class="absolute inset-0 flex items-center justify-center p-8">
                         <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6">
-                            <div class="flex items-center gap-3 mb-4">
-                                <div class="h-8 w-8 bg-blue-600 rounded flex items-center justify-center text-white">
-                                    <Database size={16} />
+                            <div class="grid grid-cols-2 gap-4 mb-4">
+                                <div class="text-center p-3 bg-gray-50 rounded">
+                                    <div class="text-xs text-gray-500 mb-1">Traditional CDD</div>
+                                    <div class="text-2xl font-bold text-gray-400">4-6 weeks</div>
+                                    <div class="text-xs text-gray-400 mt-1">$50K-$150K</div>
                                 </div>
-                                <span class="font-medium text-gray-900">Market data</span>
+                                <div class="text-center p-3 bg-primary-50 rounded border-2 border-primary-600">
+                                    <div class="text-xs text-primary-700 mb-1">DiligenceSquared</div>
+                                    <div class="text-2xl font-bold text-primary-600">3-5 days</div>
+                                    <div class="text-xs text-primary-600 mt-1">80% less cost</div>
+                                </div>
                             </div>
-                            <div class="space-y-2">
-                                <div class="h-2 bg-gray-100 rounded w-3/4"></div>
-                                <div class="h-2 bg-gray-100 rounded w-1/2"></div>
-                            </div>
-                            
-                            <!-- Arrow indicator -->
-                            <div class="absolute left-4 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                            <div class="text-xs text-gray-500 text-center">
+                                Same quality insights, fraction of the time and cost
                             </div>
                         </div>
                     </div>
@@ -45,20 +45,20 @@
 
             <!-- Right: Features List -->
             <div class="space-y-12">
-                <h3 class="text-2xl font-serif text-gray-900">
-                    An Integrated, Secure Platform <br/> Built to Drive Your Firm Forward
+                <h3 class="text-2xl font-bold text-gray-900">
+                    Built by PE Diligence Veterans<br/>from Blackstone and BCG
                 </h3>
 
                 <div class="space-y-8">
                     {#each [
-                        { id: '01', title: 'All your content in one place', icon: Database },
-                        { id: '02', title: 'Transparent, auditable sources', icon: Search },
-                        { id: '03', title: 'Automate your workflows', icon: Settings },
-                        { id: '04', title: 'Proprietary document interrogation', icon: FileText }
+                        { id: '01', title: 'AI-moderated expert interviews', icon: Database },
+                        { id: '02', title: 'Automated synthesis & analysis', icon: Search },
+                        { id: '03', title: 'Investor-grade deliverables', icon: Settings },
+                        { id: '04', title: 'Days, not weeks turnaround', icon: FileText }
                     ] as feature}
                         <div class="flex items-start gap-4 group cursor-pointer">
                             <div class="flex-shrink-0 relative">
-                                <div class="h-10 w-10 rounded-full border border-gray-200 flex items-center justify-center text-xs font-mono text-gray-500 group-hover:border-black group-hover:text-black transition-colors bg-white z-10 relative">
+                                <div class="h-10 w-10 rounded-full border-2 border-gray-200 flex items-center justify-center text-xs font-mono text-gray-500 group-hover:border-primary-600 group-hover:text-primary-600 transition-colors bg-white z-10 relative">
                                     {feature.id}
                                 </div>
                                 {#if feature.id !== '04'}
@@ -66,7 +66,7 @@
                                 {/if}
                             </div>
                             <div class="pt-2">
-                                <h4 class="text-lg text-gray-600 group-hover:text-gray-900 transition-colors font-light">
+                                <h4 class="text-lg text-gray-700 group-hover:text-gray-900 transition-colors">
                                     {feature.title}
                                 </h4>
                             </div>

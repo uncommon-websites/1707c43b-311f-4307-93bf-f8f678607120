@@ -2,7 +2,7 @@
     import { Lock, Shield, Eye, FileCheck } from 'lucide-svelte';
 </script>
 
-<section class="bg-[#111111] text-white py-24">
+<section id="security" class="bg-[#111111] text-white py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <!-- Left Content -->
@@ -12,8 +12,8 @@
                     <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif mb-2">Built for Enterprise</h2>
-                <h2 class="text-4xl md:text-5xl font-serif mb-12">Secure by Design</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-2">Enterprise Security</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-12">for Sensitive Deals</h2>
 
                 <div class="space-y-4 mb-12">
                     <div class="flex items-center gap-3">

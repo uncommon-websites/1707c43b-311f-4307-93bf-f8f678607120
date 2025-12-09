@@ -2,69 +2,67 @@
     // Icons replaced with CSS shapes for pixel-perfect custom visuals
 </script>
 
-<section class="py-24 bg-white">
+<section id="product" class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                AI That Learns How Your<br />Firm Thinks and Works
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                Built for PE Deal Teams,<br />Trusted by Diligence Veterans
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Integrations -->
+            <!-- Speed -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Integrations</h3>
+                <h3 class="text-lg font-bold text-gray-900 mb-8">3-5 Day Turnaround</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
-                    <div class="grid grid-cols-3 gap-4">
-                        {#each [1, 2, 3, 4, 5, 6] as i}
-                            <div class="h-10 w-10 bg-white rounded-full shadow-sm flex items-center justify-center text-gray-400">
-                                <div class="h-4 w-4 bg-gray-200 rounded-sm"></div>
-                            </div>
-                        {/each}
+                    <div class="relative">
+                        <div class="text-6xl font-bold text-primary-600">3-5</div>
+                        <div class="text-sm text-gray-500 text-center mt-2">days</div>
+                        <div class="absolute -right-8 top-4 text-gray-300 line-through text-2xl">4-6 weeks</div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Connect seamlessly with your existing providers and file systems. Enhance your workflows by interacting with internal & external data sources.
+                    Get investor-grade market research in days, not weeks. Fast enough to keep deals moving without sacrificing quality or depth of analysis.
                 </p>
             </div>
 
-            <!-- Prompt Library -->
+            <!-- Expert Sourcing -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Prompt Library</h3>
+                <h3 class="text-lg font-bold text-gray-900 mb-8">Expert Sourcing</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px] space-y-2">
-                        <div class="h-2 bg-gray-100 rounded w-1/3 mb-4"></div>
+                        <div class="h-2 bg-primary-200 rounded w-1/3 mb-4"></div>
                         {#each [1, 2, 3, 4, 5] as i}
                             <div class="flex items-center gap-2">
-                                <div class="h-2 w-2 rounded-full bg-gray-200"></div>
+                                <div class="h-2 w-2 rounded-full bg-primary-400"></div>
                                 <div class="h-1.5 bg-gray-100 rounded w-3/4"></div>
                             </div>
                         {/each}
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Choose from our library of professionally written prompts aimed at automating your common workflows end-to-end.
+                    We identify and vet the right experts for your specific diligence needs—from former executives to customers to competitors.
                 </p>
             </div>
 
             <!-- Guided Implementation -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Guided Implementation</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Dedicated Support</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="flex -space-x-2">
-                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">A</div>
-                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">B</div>
-                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">C</div>
+                        <div class="h-10 w-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs">F</div>
+                        <div class="h-10 w-10 rounded-full bg-green-100 border-2 border-white flex items-center justify-center text-green-600 text-xs">S</div>
+                        <div class="h-10 w-10 rounded-full bg-purple-100 border-2 border-white flex items-center justify-center text-purple-600 text-xs">H</div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    White-glove engagement and implementation with our team of ex-bankers and private equity investors.
+                    White-glove support from our team of Blackstone and BCG diligence veterans who understand PE workflows and timelines.
                 </p>
             </div>
 
             <!-- Custom-Trained Models -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Custom-Trained Models</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Diligence-Trained AI</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="relative">
                         <!-- Tree structure visualization -->
@@ -77,23 +75,23 @@
                             <div class="h-8 w-px bg-gray-300"></div>
                         </div>
                         <div class="flex justify-center">
-                            <div class="h-8 w-8 bg-[#0B231E] rounded flex items-center justify-center text-white text-xs">AI</div>
+                            <div class="h-8 w-8 bg-primary-600 rounded flex items-center justify-center text-white text-xs">D²</div>
                         </div>
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Custom-trained LLMs built for finance, using professionally labeled data tailored to the workflows and precision standards of investment banking.
+                    AI models trained specifically on commercial due diligence frameworks, ensuring outputs match the rigor and structure PE firms expect from traditional consulting.
                 </p>
             </div>
 
             <!-- Governance & Permissions -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Governance & Permissions</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Deal Team Controls</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="bg-white p-4 rounded shadow-sm w-full max-w-[200px]">
                         <div class="flex justify-between mb-4">
-                            <div class="text-[10px] font-bold">122</div>
-                            <div class="text-[10px] font-bold">2.14</div>
+                            <div class="text-[10px] font-bold text-gray-400">DEAL</div>
+                            <div class="text-[10px] font-bold text-primary-600">ACTIVE</div>
                         </div>
                         <div class="space-y-2">
                             <div class="h-px bg-gray-100 w-full"></div>
@@ -104,17 +102,17 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Granular permission controls, role-based access management, comprehensive audit trails, and customizable governance policies to streamline compliance and safeguard your data.
+                    Deal-level access controls ensure sensitive diligence data stays within your team. Comprehensive audit trails and compliance-ready governance for regulated PE environments.
                 </p>
             </div>
 
             <!-- Single Tenant Deployment -->
             <div class="bg-gray-50 p-8 rounded-lg flex flex-col h-full">
-                <h3 class="text-lg font-serif text-gray-900 mb-8">Single Tenant Deployment</h3>
+                <h3 class="text-lg font-serif text-gray-900 mb-8">Secure Infrastructure</h3>
                 <div class="flex-1 flex items-center justify-center mb-8">
                     <div class="grid grid-cols-3 gap-1">
                         {#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as i}
-                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-[#0B231E] flex items-center justify-center' : 'bg-white'}`}>
+                            <div class={`h-8 w-8 border border-gray-200 ${i === 5 ? 'bg-primary-600 flex items-center justify-center' : 'bg-white'}`}>
                                 {#if i === 5}
                                     <div class="h-2 w-2 bg-white rounded-full"></div>
                                 {/if}
@@ -123,7 +121,7 @@
                     </div>
                 </div>
                 <p class="text-xs text-gray-500 leading-relaxed mt-auto">
-                    Flexible deployment options to meet your security and infrastructure needs.
+                    Enterprise-grade security with flexible deployment options. Private cloud or on-premise installations available for firms with strict data residency requirements.
                 </p>
             </div>
         </div>
